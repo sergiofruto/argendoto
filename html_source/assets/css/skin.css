@@ -1,0 +1,236 @@
+/* -------------------------------------------------------------------------------- /
+	Granth | Modern Business Template - skin.css
+/ -------------------------------------------------------------------------------- */
+	
+/* -------------------------------------------------------------------------------- /
+	[2]	SETUP - general settings, clearfix, common classes
+/ -------------------------------------------------------------------------------- */
+
+	body { background:url(../images/background/bg_1.jpg) repeat; }
+	body, input, button, textarea { color:#3D3D3D; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color:#3D3D3D; }
+	h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color:#F1790C; }
+	a { color:#1E65B2; }
+	a:hover { color:#3D3D3D; }
+	pre {
+		background:url(../images/other/code_bg.png) repeat;
+		border:solid 1px #F3F3F3;
+	}
+	::-moz-selection {
+	 background:#7BAF14;
+	 color:#FFF;
+	}
+	::selection {
+	 background:#7BAF14;
+	 color:#FFF;
+	}
+	
+/* -------------------------------------------------------------------------------- /
+	[3] LAYOUT
+/ -------------------------------------------------------------------------------- */	
+
+	#wrapper { background:url(../images/pattern/p_4.png) repeat; }
+	.content { border-top:solid 1px #AFB2B8; }
+	
+/* -------------------------------------------------------------------------------- /
+	[4] HEADER
+/ -------------------------------------------------------------------------------- */
+		
+	#page-number { color:#AFB2B8; }
+	#page-info { border-left:solid 1px #AFB2B8; }
+	#page-title h1, #page-title span { border-left:solid 4px #AFB2B8; }
+	
+/* -------------------------------------------------------------------------------- /
+	[7] NAVIGATION
+/ -------------------------------------------------------------------------------- */
+
+	#navigation { border-left:solid 1px #AFB2B8; }
+	#navigation > li.parent { background:url(../images/other/submenu_small_arow_c1.png) no-repeat left 15px; }
+	#navigation > li:hover, #navigation > li.current, .js-on #navigation > li.current:hover {
+		background-color:#F3F3F3;
+		background-position:-4px 15px;		
+		border-left:solid 4px #AFB2B8;
+	}
+	#navigation > li > a { color:#3D3D3D; }
+	#navigation ul li {
+		border-left:solid 4px #AFB2B8;
+		background:#3D3D3D;
+	}
+	#navigation ul li a {
+		border-top:solid 1px #5A5A5C;
+		color:#F3F3F3;
+	}
+	#navigation ul li:hover, #navigation ul li.current { background:#7BAF14; }
+	#navigation ul li:hover a, #navigation ul li.current a { color:#3D3D3D; }
+	.menu-number { color:#AFB2B8; }
+	.menu-desc { color:#7BAF14; }
+	
+/* -------------------------------------------------------------------------------- /
+	[8] WIDGETS
+/ -------------------------------------------------------------------------------- */
+
+	.widget-container { border-top:solid 1px #AFB2B8; }
+	.widget-header { background:#F3F3F3; }
+	.widget-content { border-left:solid 1px #AFB2B8; }
+	.widget-content ul li { border-top:solid 1px #AFB2B8; }
+	.widget-content img { border:solid 4px #AFB2B8; }
+	.widget-content img.admin { border:solid 4px #3D3D3D; }
+	.widget-link { background:url(../images/other/submenu_small_arow_c1.png) 0 5px no-repeat; }
+	.widget-slider { background-color:#F3F3F3; }
+	.widget-slider .slides { background-color:#3D3D3D; }
+	.tweets .tweet-date { color:#7BAF14; }
+	.popular-posts li a { color:#3D3D3D; }
+	.popular-posts li:hover a { color:#F1790C; }
+	.popular-posts li:hover img { border-color:#F1790C; }
+	.popular-posts .post-date { color:#7BAF14; }
+	
+/* -------------------------------------------------------------------------------- /
+	[9] SEARCHBOX
+/ -------------------------------------------------------------------------------- */
+
+	#searchbox {
+	background-color:#F3F3F3;
+	border:solid 1px #AFB2B8;
+	border-left:solid 5px #AFB2B8;
+}
+	#searchbox button {
+		background:#3D3D3D;
+		color:#F3F3F3;
+	}
+	#searchbox button:hover { background:#AFB2B8; }
+	
+/* -------------------------------------------------------------------------------- /
+	[10.1] CONTENT SETUP & COMMON CLASSES
+/ -------------------------------------------------------------------------------- */
+	
+	.inner-content { border-left:solid 1px #AFB2B8; }
+	.error { color:#F1790C !important; }
+	.success { color:#7BAF14 !important; }
+	.separator { border-bottom:solid 1px #AFB2B8; }
+	.image-frame, .frame { background:#F3F3F3; }
+	.bordered { border-left:solid 4px #AFB2B8; }
+	.outer-bordered { border-left:solid 4px #AFB2B8; }
+	.prev-arrow { background:url(../images/navigation/nextprev.png) no-repeat -1px 1px; }
+	.prev-arrow:hover, .prev-arrow.disabled { background-position:-1px -16px; }
+	.next-arrow { background:url(../images/navigation/nextprev.png) no-repeat -23px 1px; }
+	.next-arrow:hover, .next-arrow.disabled { background-position:-23px -16px; }
+	.close { background:url(../images/navigation/close.png) no-repeat 0px 1px; }
+	.close:hover { background-position:-21px 1px; }
+	ul.bullet.highlight li a { color:#3D3D3D; }
+	ul.bullet.highlight li a:hover {
+		background:#3D3D3D url(../images/other/bullet_point_2.png) -792px 5px no-repeat;
+		color:#AFB2B8;
+	}
+	.js-on ul.bullet.highlight li a:hover { background:#3D3D3D url(../images/other/bullet_point_2.png) -797px 5px no-repeat; }
+	.tooltip, .input-tooltip {
+		background:#3D3D3D;
+		color:#F3F3F3;
+	}
+	.tooltip:after, .input-tooltip:after { border-top:6px solid #3D3D3D; }
+	.input-tooltip { background:#F1790C; }
+	.input-tooltip:after { border-top:6px solid #F1790C; }
+	#preloader { border-left:solid 4px #AFB2B8; }
+	#scroll-top { color:#AFB2B8; }
+	#scroll-top a { background:url(../images/navigation/top_button_letterpress.png) no-repeat; }
+	#scroll-top:hover { color:#3D3D3D; }
+	#scroll-top:hover a { background-position:0 -38px; }
+	.highlight { color:#F1790C; }
+	
+/* -------------------------------------------------------------------------------- /
+	[10.2] HOME / PORTFOLIO
+/ -------------------------------------------------------------------------------- */
+
+	#portfolio-filter li { border-left:solid 4px #AFB2B8; }
+	#portfolio-filter a {
+		color:#3D3D3D;
+		display:block;
+		position:relative;
+		text-transform:uppercase;
+	}
+	#portfolio-filter a:hover { color:#AFB2B8; }
+	#portfolio-filter li.current a { color:#F1790C; }
+	.portfolio-item-wrapper { background-color:#F3F3F3; }
+	.portfolio-overlay { background:#3D3D3D; }
+	.portfolio-title { color:#FFF; }
+	.portfolio-content {
+		color:#AFB2B8;
+		border-top:solid 1px #5A5A5C;
+	}
+	.portfolio-more { background:url(../images/navigation/more_info.png) 0 0 no-repeat; }
+	.portfolio-disabled-overlay { background:url(../images/other/none.png) 0 0 no-repeat; }
+
+/* -------------------------------------------------------------------------------- /
+	[10.3] BLOG & PORTFOLIO POST (PROJECT)
+/ -------------------------------------------------------------------------------- */
+
+	.post .section:first-child { border-bottom:solid 1px #AFB2B8; }
+	.post .post-meta li { border-left:solid 1px #AFB2B8; }
+	.post .post-meta li span { color:#7BAF14; }
+	.post .post-date {
+		background:#3D3D3D;
+		color:#F3F3F3;
+	}
+	.post-pagination li .page-number { background:#AFB2B8; }
+	.post-pagination li a.page-number:hover {
+		color:#F3F3F3;
+		background:#7BAF14;
+	}
+	.post-pagination li.current .page-number { background:#3D3D3D; }
+	
+/* -------------------------------------------------------------------------------- /
+	[11] FORMS
+/ -------------------------------------------------------------------------------- */
+
+	.text-input, .text-area {
+		border:solid 1px #AFB2B8;
+		-moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.15) inset;
+		-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.15) inset;
+		box-shadow:0 0 5px rgba(0, 0, 0, 0.15) inset;
+	}
+	.text-input:focus, .text-area:focus { border-color:#F1790C; }
+	.text-input.error:focus, .text-area.error:focus { color:#3D3D3D; }
+	.submit-button, .cancel-button {
+		background:-moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 80%);
+		background:-ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 80%);
+		background:-o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 80%);
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(80%, rgba(255, 255, 255, 0.5)));
+		background:-webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 80%);
+		background:linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 80%);
+		background-color:#AFB2B8;
+		border:solid 1px #AFB2B8;
+		-webkit-box-shadow:0 0px 10px -7px #3d3d3d;
+		-moz-box-shadow:0 0px 10px -7px #3d3d3d;
+		box-shadow:0 0px 10px -7px #3d3d3d;
+	}
+	.text-input.error, .text-area.error { border-color:#F1790C; }
+	.text-input.error:focus, .text-area.error:focus { color:#3D3D3D !important; }
+	.cancel-button { color:#1E65B2; }
+	.button {
+		color:#F3F3F3;
+		background:#3D3D3D;
+	}
+	.button:hover {
+		color:#F3F3F3;
+		background:#7BAF14;
+	}
+	.submit-button:hover, .cancel-button:hover { background-color:#FFF; }
+	label span { color:#F1790C; }
+	
+/* -------------------------------------------------------------------------------- /
+	[12] COMMENTS (for blog & portfolio project)
+/ -------------------------------------------------------------------------------- */
+
+	#comment-list .depth-1 { margin-left:0; }
+	#comment-list .depth-2 { margin-left:60px; }
+	#comment-list .avatar img { border:solid 4px #AFB2B8; }
+	#comment-list .avatar.admin img { border-color:#3D3D3D; }
+	#comment-list .comment-meta { margin-bottom:10px; }
+	#comment-list .comment-date { color:#3D3D3D; }
+	#comment-list li:hover .avatar img { border-color:#F1790C; }
+	#comment-list li:hover h4 { color:#F1790C; }
+	
+/* -------------------------------------------------------------------------------- /
+	[14] PLUGIN SPECIFIC RULES
+/ -------------------------------------------------------------------------------- */
+
+	#navigation > li.backLava { background:#AFB2B8; }
